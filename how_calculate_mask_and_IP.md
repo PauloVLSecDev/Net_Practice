@@ -11,8 +11,6 @@ cat << oi | cat << ola | cat << banana | cat << ander | catt jorge
         8          8           8         8   == /32
 
     esta mascar de reede nao possui nenhum espaco na rede os IPs (internet protocol)
-255.255.255.252
-                255.255.255.255 
     
 # Notacao CDIR
 
@@ -49,10 +47,32 @@ enderecos 127.x.x.x  sao usados para rede interna e nao conseguem se cominucar c
 
     o Broadcast e um endereco especial que nao envia dados para
     apenas outro host mas para todos os ips que a rede possui 
+    o broadcast e responsavel por escutar quais ips a rede possuem
+    e quais estao querendo se conectar e o broadcast e usado para 
+    definir a internet que vai se conectar com todos os ips de uma rede
+    ou de um roteador que conecta varias redes
 
 # Switch
 
     switch funcaiona para levar dados de um rede internal usando o enderecok Mac e nao apenas o IP pois
-    o switch cria uma conectacao entre os dispositivos conectados 
+    o switch cria uma conectacao entre os dispositivos conectados na mesma rede 
+
+# Roteadores
+
+    Os Roteadores fazem  o trabalho de conectar o dispositivo entre redes, o roteadores possuem mascara e ip
+    e sua rota se refere ao seu ip
+
+
+# IP (internet protocol)
+
+    Quando um dispositivo e conectado a um wi-fi ele pede um endereco IP para a rede assim respeitando quais dispositivos ja esta conectador a rede
+    o endereco IP tambem possui quatro octetos logo cada endereco ip equivale a 32 bytes
+
+# DHCP (Dynamic host Configuration protocol)
+
+    sabendo disso podedmos pensar como um dispositivo consegue se conectar a uma rede sem um IP ? 
+    O ocorre que quando um dispositivo entra na rede ele ¨grita" para todos os dispositivos na rede
+    para que um IP seja destinado a ele assim normalente o roteador "escuta" o dispositivo e define um ip
+    dentro dos disponiveis para ele essde processo e chamado de (Dynamic host Configuration protocol)
 
 
