@@ -60,8 +60,7 @@ enderecos 127.x.x.x  sao usados para rede interna e nao conseguem se cominucar c
 # Roteadores
 
     Os Roteadores fazem  o trabalho de conectar o dispositivo entre redes, o roteadores possuem mascara e ip
-    e sua rota se refere ao seu ip
-
+    e sua rota se refere ao seu ip um roteador pode ser definido como um direcionador de trafego
 
 # IP (internet protocol)
 
@@ -71,8 +70,12 @@ enderecos 127.x.x.x  sao usados para rede interna e nao conseguem se cominucar c
 # DHCP (Dynamic host Configuration protocol)
 
     sabendo disso podedmos pensar como um dispositivo consegue se conectar a uma rede sem um IP ? 
-    O ocorre que quando um dispositivo entra na rede ele ¨grita" para todos os dispositivos na rede
+    O ocorre que quando um dispositivo entra na rede ele ¨grita" para todos os dispositivos na rede:wq
     para que um IP seja destinado a ele assim normalente o roteador "escuta" o dispositivo e define um ip
     dentro dos disponiveis para ele essde processo e chamado de (Dynamic host Configuration protocol)
 
+# NAT (Network translate Address)
+
+    
+    
 
