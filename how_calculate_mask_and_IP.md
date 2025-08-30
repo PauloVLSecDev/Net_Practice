@@ -1,5 +1,8 @@
+
+
 aqui explicarei como funciona o cada um dos elementos do Net_Practice  
 
+# Mascara e seu funcionamento 
 
 todos os bites que corespondem a 1 se referenciam ao endereco da rede e os 0 se referenciam ao endereco do host
 
@@ -60,7 +63,8 @@ enderecos 127.x.x.x  sao usados para rede interna e nao conseguem se cominucar c
 # Roteadores
 
     Os Roteadores fazem  o trabalho de conectar o dispositivo entre redes, o roteadores possuem mascara e ip
-    e sua rota se refere ao seu ip um roteador pode ser definido como um direcionador de trafego
+    e sua rota se refere ao seu ip um roteador pode ser definido como um direcionador de trafego e para se conectar
+    a um outro roteador deve estar na mesms banda de rede assim conseguindo "ver" o roteador na mesma rede
 
 # IP (internet protocol)
 
